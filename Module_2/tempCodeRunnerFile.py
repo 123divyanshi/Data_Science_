@@ -1,0 +1,1 @@
+outliers = (data < Q1 - 1.5 * IQR) | (data > Q3 + 1.5 * IQR)
